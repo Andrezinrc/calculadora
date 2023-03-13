@@ -9,7 +9,8 @@ function clean(){
 
 function calcular(){
     var resultado = document.getElementById("resultado").innerHTML;
-    if(resultado){
-        document.getElementById("resultado").innerHTML = eval;
-    }
+    var result = eval(resultado);
+    document.getElementById("resultado").innerHTML = result;
 }
+
+
